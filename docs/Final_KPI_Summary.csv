@@ -1,0 +1,10 @@
+KPI,Value,Validation Status
+Overall No-Show Rate,48.5%,"Confirmed (2 independent methods, Week 7)"
+No-Show Rate: SMS Reminder,45.8%,Confirmed (consistent across Weeks 5-7)
+No-Show Rate: No Reminder,51.4%,Confirmed (consistent across Weeks 5-7)
+No-Show Rate: No Prior No-Show,43.5%,Confirmed (consistent across Weeks 5-7)
+No-Show Rate: Had Prior No-Show,55.4%,Confirmed; magnitude refined in Week 7 when combined with lead time
+No-Show Rate: 0-7 Days Lead Time,27.8%,"Confirmed (3 independent methods: banded, quartile, correlation)"
+No-Show Rate: 31-60 Days Lead Time,60.5%,"Confirmed (3 independent methods: banded, quartile, correlation)"
+No-Show Rate: 0-5km Distance,46.5%,Confirmed (consistent across Weeks 5-7)
+No-Show Rate: 15+km Distance,54.1%,Confirmed (consistent across Weeks 5-7)

@@ -18,15 +18,19 @@ As part of the Data Analytics track, my role is to explore the appointment datas
 │   ├── Week4_Initial_Analysis.ipynb
 │   ├── Week5_Analytics_Report.ipynb
 │   ├── Week6_Advanced_Analytics.ipynb
-│   └── Week7_Testing_Refinement.ipynb          # Week 7: KPI validation, refinement, cross-track testing
+│   ├── Week7_Testing_Refinement.ipynb
+│   └── Week8_Final_Analytics_Package.ipynb      # Week 8: final KPIs, dashboard, insights, integration
 ├── docs/
 │   ├── Week4_Project_Summary.md
 │   ├── Week5_Project_Summary.md
 │   ├── Week6_Project_Summary.md
 │   ├── Week7_Project_Summary.md
+│   ├── Week8_Final_Summary.md
 │   ├── DataScience_Feature_Relevance_Summary.csv
-│   ├── chart1_outcome_distribution.png through chart6_combined_risk.png
-│   └── chart7_leadtime_continuous.png          # Week 7: refined continuous view
+│   ├── Final_KPI_Summary.csv                    # Week 8: official final KPI reference
+│   ├── chart1-6, chart7_leadtime_continuous.png  # weekly chart history
+│   └── final_chart1-4...png                     # Week 8: final 4-chart dashboard
+└── README.md
 ```
 
 ---
@@ -64,6 +68,13 @@ As part of the Data Analytics track, my role is to explore the appointment datas
 - Reminder channel effectiveness depends on lead time - Email performs best for short-notice appointments, SMS for longer lead times.
 - Distance to clinic has a moderate effect (46.5% within 5km vs. 54.1% at 15+km).
 
+## Week 8 Progress (Final)
+- Consolidated four weeks of analysis into a final, validated KPI set and 4-chart dashboard.
+- Finalized business insights and recommendations, incorporating all corrections made during Week 7 testing.
+- Wrote an executive summary for non-technical HealthConnect stakeholders.
+- Documented the complete final integration cycle with the Data Science track - from initial suggestion (Week 6), to real-world testing, to refined analytical conclusions (Week 7-8).
+- Prepared final presentation materials, including an individual video presentation.
+
 ## Tools Used
 
 - Python (pandas, matplotlib)
@@ -73,11 +84,16 @@ As part of the Data Analytics track, my role is to explore the appointment datas
 
 Week 6 involved a real exchange with a Data Science intern building the HealthConnect no-show prediction model. After reviewing her actual baseline results, I provided two specific interaction-feature recommendations (lead-time × prior-no-show, and reminder-channel × lead-time) that were not yet tested in her model. This is documented in `docs/DataScience_Feature_Relevance_Summary.csv` and in the Week 6 notebook.
 
-## Next Steps (Week 8)
+## Project Summary (Weeks 4-8)
 
-- Prepare validated, refined findings for final HealthConnect integration and presentation.
-- Present the compounding-risk finding with its refined, accurate magnitude rather than the original overstated version.
-- Summarize the project's full analytical journey (Weeks 4-7) for the final presentation.
+This project took HealthConnect Clinic's fictional appointment data through a full analytical lifecycle: problem definition and initial exploration (Week 4-5), deeper validation and cross-track integration (Week 6), independent testing and correction of an overstated finding (Week 7), and final consolidation into a validated, presentation-ready analytics package (Week 8). Along the way, a real collaboration with the Data Science track demonstrated the value of testing analytical suggestions in practice rather than assuming they translate directly into predictive power.
+
+**Final validated findings:**
+- ~48.5% of all appointments end in a no-show.
+- Booking lead time is the strongest, most rigorously validated predictor.
+- Lead time and prior no-show history compound, though the effect is more modest than early testing suggested.
+- Reminder channel effectiveness depends on lead time - no single "best" channel exists.
+- Distance to clinic has a moderate, real effect on attendance.
 
 ---
 *Part of the AnalystLab Africa Experience Lab Internship Programme.*
